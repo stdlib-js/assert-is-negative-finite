@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNegativeFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-finite@esm/index.mjs';
+import isNegativeFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-finite@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-finite@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-finite@v0.1.0-esm/index.mjs';
 ```
 
 #### isNegativeFinite( value )
@@ -130,7 +130,7 @@ bool = isNegativeFinite.isObject( new Number( -3.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isNegativeFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-finite@esm/index.mjs';
+import isNegativeFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-finite@v0.1.0-esm/index.mjs';
 
 var bool = isNegativeFinite( -5.0 );
 // returns true
