@@ -65,7 +65,7 @@ var isNegativeFinite = require( '@stdlib/assert-is-negative-finite' );
 
 #### isNegativeFinite( value )
 
-Tests if a `value` is a `number` having a finite negative value.
+Tests if a value is a number having a finite negative value.
 
 <!-- eslint-disable no-new-wrappers -->
 
@@ -87,13 +87,13 @@ bool = isNegativeFinite( 5.0 );
 bool = isNegativeFinite( null );
 // returns false
 
-bool = isNegativeFinite( Number.NEGATIVE_INFINITY );
+bool = isNegativeFinite( -1.0/0.0 );
 // returns false
 ```
 
 #### isNegativeFinite.isPrimitive( value )
 
-Tests if a `value` is a primitive `number` having a finite negative value.
+Tests if a value is a primitive number having a finite negative value.
 
 <!-- eslint-disable no-new-wrappers -->
 
@@ -109,7 +109,7 @@ bool = isNegativeFinite.isPrimitive( new Number( -3.0 ) );
 
 #### isNegativeFinite.isObject( value )
 
-Tests if a `value` is a `Number` object having a finite negative value.
+Tests if a value is a `Number` object having a finite negative value.
 
 <!-- eslint-disable no-new-wrappers -->
 
@@ -159,6 +159,12 @@ bool = isNegativeFinite( '-5' );
 
 bool = isNegativeFinite( null );
 // returns false
+
+bool = isNegativeFinite( -1.0/0.0 );
+// returns false
+
+bool = isNegativeFinite( new Number( -1.0/0.0 ) );
+// returns false
 ```
 
 </section>
@@ -168,12 +174,6 @@ bool = isNegativeFinite( null );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
-
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/assert-is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
 
 </section>
 
@@ -250,12 +250,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/assert-is-negative-finite/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-negative-finite/main/LICENSE
-
-<!-- <related-links> -->
-
-[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number
-
-<!-- </related-links> -->
 
 </section>
 
