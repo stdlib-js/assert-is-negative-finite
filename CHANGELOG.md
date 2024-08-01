@@ -2,19 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v0.1.1">
+<section class="release" id="unreleased">
 
-## 0.1.1 (2024-07-27)
-
-<section class="bug-fixes">
-
-### Bug Fixes
-
--   [`b77ddf7`](https://github.com/stdlib-js/stdlib/commit/b77ddf74c62c7031c7a542d8a661a51e19fd6ebd) - replace use of type guards with boolean return type
-
-</section>
-
-<!-- /.bug-fixes -->
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -22,7 +12,7 @@
 
 <details>
 
--   [`b77ddf7`](https://github.com/stdlib-js/stdlib/commit/b77ddf74c62c7031c7a542d8a661a51e19fd6ebd) - **fix:** replace use of type guards with boolean return type _(by Philipp Burckhardt)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -36,7 +26,7 @@
 
 A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Philipp Burckhardt
+-   Athan Reines
 
 </section>
 
@@ -46,48 +36,21 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.release -->
 
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2024-07-27)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.0">
 
 ## 0.1.0 (2024-02-24)
 
-<section class="features">
-
-### Features
-
--   [`609682c`](https://github.com/stdlib-js/stdlib/commit/609682c8ef64ecf0fb6a4d7094e226a99a985ab5) - add assert/is-negative-finite
-
-</section>
-
-<!-- /.features -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`8ebd6f7`](https://github.com/stdlib-js/stdlib/commit/8ebd6f770e563cc7cce79e11424c3fb85736ad42) - **refactor:** avoid assertion duplication and fix package meta data _(by Athan Reines)_
--   [`609682c`](https://github.com/stdlib-js/stdlib/commit/609682c8ef64ecf0fb6a4d7094e226a99a985ab5) - **feat:** add assert/is-negative-finite _(by Gunj Joshi, Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 3 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Gunj Joshi
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
