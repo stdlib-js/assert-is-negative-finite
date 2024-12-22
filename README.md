@@ -175,6 +175,14 @@ bool = isNegativeFinite( new Number( -1.0/0.0 ) );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-finite`][@stdlib/assert/is-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a finite number.</span>
+-   <span class="package-name">[`@stdlib/assert-is-negative-number`][@stdlib/assert/is-negative-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a negative value.</span>
+-   <span class="package-name">[`@stdlib/assert-is-positive-finite`][@stdlib/assert/is-positive-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a finite positive value.</span>
+
 </section>
 
 <!-- /.related -->
@@ -250,6 +258,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/assert-is-negative-finite/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-negative-finite/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-finite]: https://github.com/stdlib-js/assert-is-finite
+
+[@stdlib/assert/is-negative-number]: https://github.com/stdlib-js/assert-is-negative-number
+
+[@stdlib/assert/is-positive-finite]: https://github.com/stdlib-js/assert-is-positive-finite
+
+<!-- </related-links> -->
 
 </section>
 
