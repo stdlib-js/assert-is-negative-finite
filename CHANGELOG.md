@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-31)
+## Unreleased (2026-06-03)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`6a45ff7`](https://github.com/stdlib-js/stdlib/commit/6a45ff7842341f53f8a6f6c08ab85a8a145cc5a0) - broaden parameter types in `@stdlib/assert-is-negative-finite` [(#12450)](https://github.com/stdlib-js/stdlib/pull/12450)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`6a45ff7`](https://github.com/stdlib-js/stdlib/commit/6a45ff7842341f53f8a6f6c08ab85a8a145cc5a0) - **fix:** broaden parameter types in `@stdlib/assert-is-negative-finite` [(#12450)](https://github.com/stdlib-js/stdlib/pull/12450) _(by Philipp Burckhardt)_
 -   [`67c0a20`](https://github.com/stdlib-js/stdlib/commit/67c0a2044e515ea6733765a48be54f09ea749d8f) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11398)](https:-/github.com/stdlib-js/stdlib/pull/11398) _(by Karan Anand)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
